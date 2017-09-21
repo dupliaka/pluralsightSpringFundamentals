@@ -8,6 +8,8 @@ import java.util.List;
 
 
 public class CustomerServiceImpl implements CustomerService {
+    public CustomerServiceImpl() {
+    }
 
     public CustomerServiceImpl(CustomerRepository customerRepository) {
         this.customerRepository = customerRepository;
