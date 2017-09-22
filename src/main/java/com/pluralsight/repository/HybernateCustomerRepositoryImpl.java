@@ -1,13 +1,12 @@
-package repository;
+package com.pluralsight.repository;
 
-import model.Customer;
+import com.pluralsight.model.Customer;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Created by anna on 21.09.17.
- */
+@Repository("customerRepository")
 public class HybernateCustomerRepositoryImpl implements CustomerRepository {
     @Override
     public List<Customer> findAll() {
