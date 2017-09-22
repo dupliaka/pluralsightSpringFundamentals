@@ -1,4 +1,4 @@
-package model;
+package com.pluralsight.model;
 
 /**
  * Created by anna on 21.09.17.
